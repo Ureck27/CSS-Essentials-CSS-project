@@ -24,3 +24,121 @@ nav ul {
 #items:hover{
     color:yellow;
 }
+
+/*===  menu ==*/
+.Menu{
+    background-color: #590202;
+    color: #D99A25;
+    text-align: center;
+    padding: 20px;
+}
+/*  Appetizers */
+
+.Appetizers{
+    background-color: #D99A25;
+}
+.Appetizers1 ul{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.Appetizers ul li a{
+    text-decoration: none;
+    color: #590202;
+}
+
+.Appetizers ul li a:hover{
+    color: yellow;
+}
+.Appetizers ul li{
+    border: 2px solid #590202;
+    margin: 10px;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+hr{
+    border: 1px dashed #590202;
+}
+.Appetizers details summary p{
+    text-align: center;
+    font-size: 18px;
+    color: #590202;
+}
+
+/* Main-Courses*/
+
+.Main-Courses{
+    background-color: #D99A25;
+}
+.Main-Courses ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+.Main-Courses ul li a{
+    text-decoration: none;
+    color: #590202;
+}
+.Main-Courses ul li a:hover{
+    color: yellow;
+}
+.Main-Courses ul li{
+    border: 2px solid #590202;
+    margin: 10px;   
+    padding: 10px;
+    list-style-type: none;  
+    text-align: center;
+    font-size: 18px;
+}   
+.Main-Courses details summary p{
+    text-align: center;
+    font-size: 18px;
+    color: #590202;
+}
+/* Desserts */
+
+.Desserts{
+    background-color: #D99A25;
+}
+.Desserts ul{
+    display: grid;  
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+.Desserts ul li a{
+    text-decoration: none;
+    color: #590202;
+}
+.Desserts ul li a:hover{
+    color: yellow;
+}
+.Desserts ul li{
+    border: 2px solid #590202;         
+    margin: 10px;   
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px;
+}
+.Desserts details summary p{
+    text-align: center;
+    font-size: 18px;
+    color: #590202;
+}
+/*CINTACT US*/
+.Contact{
+    background-color: #590202;
+    color: #D99A25;
+    text-align: center;
+    padding: 20px;
+}
+.Contact a{
+    text-decoration: none;
+    color: #D99A25;
+}
+.Contact a:hover{
+    color: yellow;
+}
