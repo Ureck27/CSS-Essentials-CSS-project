@@ -38,9 +38,8 @@ nav ul {
 .Appetizers{
     background-color: #D99A25;
 }
-.Appetizers1 ul{
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+.Appetizers1 {
+   display:grid;
 }
 
 .Appetizers ul li a{
@@ -76,7 +75,6 @@ hr{
 }
 .Main-Courses ul{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
 }
 .Main-Courses ul li a{
@@ -106,8 +104,6 @@ hr{
 }
 .Desserts ul{
     display: grid;  
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
 }
 .Desserts ul li a{
     text-decoration: none;
